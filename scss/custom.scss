@@ -1,0 +1,41 @@
+
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+//$primary: #5265E1;
+//$secondary: #FA5959;
+
+$color-principal: #5265E1;
+$color-secundari: #FA5959;
+
+//$primary:$color-principal;
+//$secondary:$color-secundari;
+
+$custom-colors: (
+  "color-secundari": $color-secundari,
+  "color-principal": $color-principal,
+);
+
+// Merge the maps
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.btn:active
+{
+    color:grey;
+}
+
+.btn-color-secundari {
+    color: white;
+    
+  }
+
+
+
+
+

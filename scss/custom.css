@@ -12159,4 +12159,20 @@ textarea.form-control-lg {
 
 .btn-color-secundari {
   color: white;
+}
+
+#nav-profile-tab {
+  color: black;
+}
+
+#nav-contact-tab {
+  color: black;
+}
+
+.nav-underline .nav-link {
+  border-bottom: 2px solid transparent;
+}
+
+.nav-underline .nav-link.active {
+  border-bottom-color: red;
 }/*# sourceMappingURL=custom.css.map */

@@ -79,6 +79,17 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
   }
 
 
+.accordion-container {
+    display: flex;
+    justify-content: center;
+}
+.accordion {
+    width: 100%; /* Ocupate all */
+    max-width: 600px; /* max for desktop */
+}
+.accordion-button {
+    font-weight: bold; /* Bold */
+}
 
 
 

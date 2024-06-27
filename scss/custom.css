@@ -12196,4 +12196,18 @@ textarea.form-control-lg {
   padding: 30px;
   align-items: center;
   box-shadow: 0 3px 9px rgba(161, 179, 185, 0.5);
+}
+
+.accordion-container {
+  display: flex;
+  justify-content: center;
+}
+
+.accordion {
+  width: 100%; /* Ocupate all */
+  max-width: 600px; /* max for desktop */
+}
+
+.accordion-button {
+  font-weight: bold; /* Bold */
 }/*# sourceMappingURL=custom.css.map */

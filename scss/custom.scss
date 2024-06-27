@@ -55,6 +55,29 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     border-bottom-color: red;
 }
 
+.separate {
+    align-self: center;
+    width: 100%;
+    height: 30px; 
+    border-top: dotted rgb(198, 198, 198); 
+    border-spacing: 10px;
+    border-width: 5px ;
+    
+  }
+
+
+  .card-img-top-custom {
+    width: 100px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+.card {
+    padding: 30px;
+    align-items: center;
+    box-shadow: 0 3px 9px rgba(161, 179, 185, 0.5);
+  }
+
 
 
 
